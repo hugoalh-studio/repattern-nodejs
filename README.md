@@ -27,9 +27,13 @@
 
 ### Pattern List
 
-| **Identity** | **Name** |
+| **Name** | **Description** |
 |:-:|:--|
 | `email` | Email address. |
+| `ip` | Internet Protocol address version 4 (IPV4) and 6 (IPV6). |
+| `ipv4` | Internet Protocol address version 4 (IPV4). |
+| `ipv6` | Internet Protocol address version 6 (IPV6). |
+| `semver` | Semantic Versioning version 2.0.0 (SemVer2). |
 | `url` | Uniform Resource Locator (URL). |
 
 ## 📚 Documentation
