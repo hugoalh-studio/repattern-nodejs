@@ -31,6 +31,7 @@
 |:-:|:--|
 | `bigint` | Big integer number. |
 | `color-hex` | Hex colo(u)r. |
+| `color-rgb` | RGB colo(u)r. |
 | `email` | Electronic mail (email) address. |
 | `ip` | Internet Protocol address version 4 (IPV4) and 6 (IPV6). |
 | `ipv4` | Internet Protocol address version 4 (IPV4). |
