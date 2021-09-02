@@ -23,38 +23,38 @@
 
 ### 🌟 Feature
 
+- Toggleable group naming
 - Native support for CommonJS and ModuleJS.
 
 ### Pattern List
 
-| **Name** | **Description** |
-|:-:|:--|
-| `bigint` | Big integer number. |
-| `color-hex` | Hex colo(u)r. |
-| `color-rgb` | RGB colo(u)r. |
-| `email` | Electronic mail (email) address. |
-| `ip` | Internet Protocol address version 4 (IPV4) and 6 (IPV6). |
-| `ipv4` | Internet Protocol address version 4 (IPV4). |
-| `ipv6` | Internet Protocol address version 6 (IPV6). |
-| `number` | Number. |
-| `semver` | Semantic Versioning version 2.0.0 (SemVer2). |
-| `url` | Uniform Resource Locator (URL). |
+| **In Version** | **Name** | **Description** |
+|:-:|:-:|:--|
+| All | `bigint` | Big integer number. |
+| All | `color-hex` | Hex colo(u)r. |
+| All | `color-rgb` | RGB colo(u)r. |
+| All | `email` | Electronic mail (email) address. |
+| All | `github-repository` | GitHub repository. |
+| All | `ip` | Internet Protocol address version 4 (IPV4) and 6 (IPV6). |
+| All | `ipv4` | Internet Protocol address version 4 (IPV4). |
+| All | `ipv6` | Internet Protocol address version 6 (IPV6). |
+| All | `number` | Number. |
+| All | `semver` | Semantic Versioning version 2.0.0 (SemVer2). |
+| *N/A* | `url` | Uniform Resource Locator (URL). |
 
 ## 📚 Documentation
 
-*For the official documentation, please visit [GitHub Repository Wiki](https://github.com/hugoalh-studio/repattern-nodejs/wiki).*
+### Getting Started
 
-### Getting Started (Excerpt)
-
-NodeJS (>= v14.15.0) & NPM (>= v6.14.8):
+NodeJS (>= v14.15.0) + NPM (>= v6.14.8):
 
 ```sh
 npm install @hugoalh/repattern
 ```
 
-### API (Excerpt)
+### API
 
-### Example (Excerpt)
+### Example
 
 ```js
 const repattern = require("@hugoalh/repattern");
