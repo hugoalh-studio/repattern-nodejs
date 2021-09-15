@@ -66,5 +66,8 @@ import * as repattern from "@hugoalh/repattern";
 ```ts
 repattern(
   name: string
-): RegExp
+): (
+  RegExp |
+  undefined
+)
 ```
