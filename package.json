@@ -1,6 +1,6 @@
 {
 	"name": "@hugoalh/repattern",
-	"version": "0.1.0",
+	"version": "0.1.1",
 	"description": "A module to provide regular expression pattern.",
 	"keywords": [
 		"pattern",
