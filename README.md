@@ -22,20 +22,31 @@
 
 A NodeJS module to provide regular expression pattern.
 
-### Pattern List
+### Pattern
+
+| **Name** | **Support Flag** | **Description** |
+|:-:|:-:|:--|
+| `big-integer` | ✔ | Big integer number. |
+| `colour-hex` | ✔ | Hex colour. |
+| `colour-hel` | ✔ | HSL colour. |
+| `colour-hela` | ✔ | HSLA colour. |
+| `colour-rgb` | ✔ | RGB colour. |
+| `colour-rgba` | ✔ | RGBA colour. |
+| `email` | ✔ | Electronic mail (email) address. |
+| `github-repository` | ✔ | GitHub repository. |
+| `ip` | ✔ | Internet Protocol address version 4 (IPV4) and 6 (IPV6). |
+| `ipv4` | ✔ | Internet Protocol address version 4 (IPV4). |
+| `ipv6` | ✔ | Internet Protocol address version 6 (IPV6). |
+| `number` | ✔ | Number. |
+| `shebang` |  | Shebang. |
+| `semver` | ✔ | Semantic Versioning version 2.0.0 (SemVer2). |
+
+### Flag
 
 | **Name** | **Description** |
 |:-:|:--|
-| `big-integer` | Big integer number. |
-| `colour-hex` | Hex colour. |
-| `colour-rgb` | RGB colour. |
-| `email` | Electronic mail (email) address. |
-| `github-repository` | GitHub repository. |
-| `ip` | Internet Protocol address version 4 (IPV4) and 6 (IPV6). |
-| `ipv4` | Internet Protocol address version 4 (IPV4). |
-| `ipv6` | Internet Protocol address version 6 (IPV6). |
-| `number` | Number. |
-| `semver` | Semantic Versioning version 2.0.0 (SemVer2). |
+| `e` | Exact(ly). |
+| `g` | Global. |
 
 ## 📚 Documentation
 
@@ -65,6 +76,7 @@ import * as repattern from "@hugoalh/repattern";
 
 ```ts
 repattern(
-  name: string
+  name: string,
+  flag?: string = ""
 ): RegExp
 ```
