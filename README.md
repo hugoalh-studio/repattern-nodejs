@@ -28,6 +28,7 @@ A NodeJS module to provide regular expression pattern.
 |:-:|:-:|:--|
 | `big-integer` | ✔ | Big integer number. |
 | `colour-hex` | ✔ | Hex colour. |
+| `colour-hexa` | ✔ | Hex-alpha colour. |
 | `colour-hel` | ✔ | HSL colour. |
 | `colour-hela` | ✔ | HSLA colour. |
 | `colour-rgb` | ✔ | RGB colour. |
@@ -37,8 +38,10 @@ A NodeJS module to provide regular expression pattern.
 | `ip` | ✔ | Internet Protocol address version 4 (IPV4) and 6 (IPV6). |
 | `ipv4` | ✔ | Internet Protocol address version 4 (IPV4). |
 | `ipv6` | ✔ | Internet Protocol address version 6 (IPV6). |
+| `mac-address` | ✔ | MAC address. |
 | `number` | ✔ | Number. |
-| `shebang` |  | Shebang. |
+| `regular-expression` | ✔ | Regular expression. |
+| `shebang` | ❌ | Shebang. |
 | `semver` | ✔ | Semantic Versioning version 2.0.0 (SemVer2). |
 
 ### Flag
@@ -47,6 +50,7 @@ A NodeJS module to provide regular expression pattern.
 |:-:|:--|
 | `e` | Exact(ly). |
 | `g` | Global. |
+| `i` | Case insensitive. |
 
 ## 📚 Documentation
 
