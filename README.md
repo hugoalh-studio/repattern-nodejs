@@ -27,10 +27,14 @@ A NodeJS module to provide regular expression pattern.
 | **Name** | **Support Flag** | **Description** |
 |:-:|:-:|:--|
 | `big-integer` | ✔ | Big integer number. |
+| `colour-cmyk` | ✔ | CMYK colour. |
 | `colour-hex` | ✔ | Hex colour. |
 | `colour-hexa` | ✔ | Hex-alpha colour. |
 | `colour-hel` | ✔ | HSL colour. |
 | `colour-hela` | ✔ | HSLA colour. |
+| `colour-hwb` | ✔ | HWB colour. |
+| `colour-hwba` | ✔ | HWBA colour. |
+| `colour-ncol` | ✔ | NCol colour. |
 | `colour-rgb` | ✔ | RGB colour. |
 | `colour-rgba` | ✔ | RGBA colour. |
 | `email` | ✔ | Electronic mail (email) address. |
