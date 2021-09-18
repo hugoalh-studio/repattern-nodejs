@@ -30,8 +30,8 @@ A NodeJS module to provide regular expression pattern.
 | `colour-cmyk` | ✔ | CMYK colour. |
 | `colour-hex` | ✔ | Hex colour. |
 | `colour-hexa` | ✔ | Hex-alpha colour. |
-| `colour-hel` | ✔ | HSL colour. |
-| `colour-hela` | ✔ | HSLA colour. |
+| `colour-hsl` | ✔ | HSL colour. |
+| `colour-hsla` | ✔ | HSLA colour. |
 | `colour-hwb` | ✔ | HWB colour. |
 | `colour-hwba` | ✔ | HWBA colour. |
 | `colour-ncol` | ✔ | NCol colour. |
@@ -45,8 +45,8 @@ A NodeJS module to provide regular expression pattern.
 | `mac-address` | ✔ | MAC address. |
 | `number` | ✔ | Number. |
 | `regular-expression` | ✔ | Regular expression. |
-| `shebang` | ❌ | Shebang. |
 | `semver` | ✔ | Semantic Versioning version 2.0.0 (SemVer2). |
+| `shebang` | ❌ | Shebang. |
 
 ### Flag
 
