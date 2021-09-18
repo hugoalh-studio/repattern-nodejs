@@ -73,7 +73,7 @@ const repattern = require("@hugoalh/repattern");
 #### Use In ModuleJS
 
 ```js
-import * as repattern from "@hugoalh/repattern";
+import repattern from "@hugoalh/repattern";
 ```
 
 ### API
