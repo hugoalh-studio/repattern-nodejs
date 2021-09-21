@@ -24,7 +24,7 @@ A NodeJS module to provide regular expression pattern.
 
 ### Pattern
 
-*For expanded list, please visit [here](https://gist.github.com/hugoalh/5e2798bb00577ec2ec06c2fa29b18976).*
+*For the expanded list, please visit [here](https://gist.github.com/hugoalh/5e2798bb00577ec2ec06c2fa29b18976).*
 
 | **Name** | **Support Flag** | **Description** |
 |:-:|:-:|:--|
