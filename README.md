@@ -54,7 +54,8 @@ A NodeJS module to provide regular expression pattern.
 
 | **Name** | **Description** |
 |:-:|:--|
-| `e` | Exact(ly). |
+| `b` | Boundary; Cannot use with `e`. |
+| `e` | Exact(ly); Cannot use with `b`. |
 | `g` | Global. |
 | `i` | Case insensitive. |
 
