@@ -24,40 +24,58 @@ A NodeJS module to provide regular expression pattern.
 
 ### Pattern
 
-*For the expanded list, please visit [here](https://gist.github.com/hugoalh/5e2798bb00577ec2ec06c2fa29b18976).*
-
-| **Name** | **Support Flag** | **Description** |
-|:-:|:-:|:--|
-| `big-integer` | ✔ | Big integer number. |
-| `colour-cmyk` | ✔ | CMYK colour. |
-| `colour-hex` | ✔ | Hex colour. |
-| `colour-hexa` | ✔ | Hex-alpha colour. |
-| `colour-hsl` | ✔ | HSL colour. |
-| `colour-hsla` | ✔ | HSLA colour. |
-| `colour-hwb` | ✔ | HWB colour. |
-| `colour-hwba` | ✔ | HWBA colour. |
-| `colour-ncol` | ✔ | NCol colour. |
-| `colour-rgb` | ✔ | RGB colour. |
-| `colour-rgba` | ✔ | RGBA colour. |
-| `email` | ✔ | Electronic mail (email) address. |
-| `github-repository` | ✔ | GitHub repository. |
-| `ip` | ✔ | Internet Protocol address version 4 (IPV4) and 6 (IPV6). |
-| `ipv4` | ✔ | Internet Protocol address version 4 (IPV4). |
-| `ipv6` | ✔ | Internet Protocol address version 6 (IPV6). |
-| `mac-address` | ✔ | MAC address. |
-| `number` | ✔ | Number. |
-| `regular-expression` | ✔ | Regular expression. |
-| `semver` | ✔ | Semantic Versioning version 2.0.0 (SemVer2). |
-| `shebang` | ❌ | Shebang. |
+- **`base64`**
+- **`base64URL`**
+- **`bigInteger`:** Big integer number.
+- **`blake2b384`**
+- **`blake2b512`**
+- **`blake2s224`**
+- **`blake2s256`**
+- **`blake224`**
+- **`blake256`**
+- **`blake384`**
+- **`blake512`**
+- **`colourCMYK`:** CMYK colour.
+- **`colourHex`:** Hex colour.
+- **`colourHexAlpha`:** Hex-alpha colour.
+- **`colourHSL`:** HSL colour.
+- **`colourHSLA`:** HSLA colour.
+- **`colourHWB`:** HWB colour.
+- **`colourHWBA`:** HWBA colour.
+- **`colourNCol`:** NCol colour.
+- **`colourRGB`:** RGB colour.
+- **`colourRGBA`:** RGBA colour.
+- **`email`:** Electronic mail (email) address.
+- **`githubRepository`:** GitHub repository.
+- **`hash160`**
+- **`hash224`**
+- **`hash256`**
+- **`hash384`**
+- **`hash512`**
+- **`ip`:** Internet Protocol address version 4 (IPV4) and 6 (IPV6).
+- **`ipv4`:** Internet Protocol address version 4 (IPV4).
+- **`ipv6`:** Internet Protocol address version 6 (IPV6).
+- **`macAddress`:** MAC address.
+- **`md2`**
+- **`md4`**
+- **`md5`**
+- **`md6`**
+- **`number`:** Number.
+- **`regularExpression`:** Regular expression.
+- **`semanticVersioning`:** Semantic Versioning version 2.0.0 (SemVer2).
+- **`sha1`**
+- **`sha224`**
+- **`sha256`**
+- **`sha384`**
+- **`sha512`**
+- **`shebang`:** Shebang; Not support flag.
 
 ### Flag
 
-| **Name** | **Description** |
-|:-:|:--|
-| `b` | Boundary; Cannot use with `e`. |
-| `e` | Exact(ly); Cannot use with `b`. |
-| `g` | Global. |
-| `i` | Case insensitive. |
+- **`boundary`:** `<boolean = false>` Boundary; Cannot use with flag `exactly`.
+- **`caseInsensitive`:** `<boolean = false>` Case insensitive.
+- **`exactly`:** `<boolean = false>` Exact(ly); Cannot use with flag `boundary`.
+- **`global`:** `<boolean = false>` Global.
 
 ## 📚 Documentation
 
