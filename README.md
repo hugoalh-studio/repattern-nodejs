@@ -25,6 +25,11 @@ A NodeJS module to provide regular expression pattern.
 ### Pattern
 
 - **`base64`:** Base 64.
+  > **⚠ Important:** Support additional flag(s):
+  > - **`padding?`:** `<boolean>` Base 64 padding.
+  >   - **`false`:** Enforce no padding.
+  >   - **`true`:** Enforce padding.
+  >   - **`undefined`:** Optional padding.
 - **`base64URL`:** Base 64 URL.
 - **`bigInteger`:** Big integer number.
 - **`blake2b384`:** BLAKE 2 384.
@@ -46,6 +51,10 @@ A NodeJS module to provide regular expression pattern.
 - **`colourRGB`:** RGB colour.
 - **`colourRGBA`:** RGBA colour.
 - **`email`:** Electronic mail address.
+  > **⚠ Important:** Support additional flag(s):
+  > - **`domain?`:** `<string>` Electronic mail address domain.
+  > - **`ipv4?`:** `<boolean = false>` Allow IPV4 as the electronic mail address domain.
+  > - **`ipv6?`:** `<boolean = false>` Allow IPV6 as the electronic mail address domain.
 - **`githubRepository`:** GitHub repository.
 - **`hash128`:** Hash 128.
 - **`hash160`:** Hash 160.
@@ -69,15 +78,16 @@ A NodeJS module to provide regular expression pattern.
 - **`sha256`:** Secure Hash Algorithm 2/3 256.
 - **`sha384`:** Secure Hash Algorithm 2/3 384.
 - **`sha512`:** Secure Hash Algorithm 2/3 512.
-- **`shebang`:** Shebang; Not support flag.
+- **`shebang`:** Shebang.
+  > **⚠ Important:** Not support flag(s).
 - **`uuid`:** Universally Unique Identifier.
 
-### Flag
+### Flag (General)
 
-- **`boundary`:** `<boolean = false>` Boundary; Cannot use with flag `exactly`.
-- **`caseInsensitive`:** `<boolean = false>` Case insensitive.
-- **`exactly`:** `<boolean = false>` Exact(ly); Cannot use with flag `boundary`.
-- **`global`:** `<boolean = false>` Global.
+- **`boundary?`:** `<boolean = false>` Boundary; Cannot use with flag `exactly`.
+- **`caseInsensitive?`:** `<boolean = false>` Case insensitive.
+- **`exactly?`:** `<boolean = false>` Exact(ly); Cannot use with flag `boundary`.
+- **`global?`:** `<boolean = false>` Global.
 
 ## 📚 Documentation
 
@@ -106,8 +116,7 @@ import repattern from "@hugoalh/repattern";
 ### API
 
 ```ts
-repattern(
-  name: string,
-  flag?: string = ""
+repattern.<patternName>(
+  flag?: object = {}
 ): RegExp
 ```
