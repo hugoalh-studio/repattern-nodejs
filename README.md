@@ -24,17 +24,17 @@ A NodeJS module to provide regular expression pattern.
 
 ### Pattern
 
-- **`base64`**
-- **`base64URL`**
+- **`base64`:** Base 64.
+- **`base64URL`:** Base 64 URL.
 - **`bigInteger`:** Big integer number.
-- **`blake2b384`**
-- **`blake2b512`**
-- **`blake2s224`**
-- **`blake2s256`**
-- **`blake224`**
-- **`blake256`**
-- **`blake384`**
-- **`blake512`**
+- **`blake2b384`:** BLAKE 2 384.
+- **`blake2b512`:** BLAKE 2 512.
+- **`blake2s224`:** BLAKE 2 224.
+- **`blake2s256`:** BLAKE 2 256.
+- **`blake224`:** BLAKE 224.
+- **`blake256`:** BLAKE 256.
+- **`blake384`:** BLAKE 384.
+- **`blake512`:** BLAKE 512.
 - **`colourCMYK`:** CMYK colour.
 - **`colourHex`:** Hex colour.
 - **`colourHexAlpha`:** Hex-alpha colour.
@@ -45,30 +45,32 @@ A NodeJS module to provide regular expression pattern.
 - **`colourNCol`:** NCol colour.
 - **`colourRGB`:** RGB colour.
 - **`colourRGBA`:** RGBA colour.
-- **`email`:** Electronic mail (email) address.
+- **`email`:** Electronic mail address.
 - **`githubRepository`:** GitHub repository.
-- **`hash160`**
-- **`hash224`**
-- **`hash256`**
-- **`hash384`**
-- **`hash512`**
-- **`ip`:** Internet Protocol address version 4 (IPV4) and 6 (IPV6).
-- **`ipv4`:** Internet Protocol address version 4 (IPV4).
-- **`ipv6`:** Internet Protocol address version 6 (IPV6).
+- **`hash128`:** Hash 128.
+- **`hash160`:** Hash 160.
+- **`hash224`:** Hash 224.
+- **`hash256`:** Hash 256.
+- **`hash384`:** Hash 384.
+- **`hash512`:** Hash 512.
+- **`ip`:** Internet Protocol address version 4 and 6.
+- **`ipv4`:** Internet Protocol address version 4.
+- **`ipv6`:** Internet Protocol address version 6.
 - **`macAddress`:** MAC address.
-- **`md2`**
-- **`md4`**
-- **`md5`**
-- **`md6`**
+- **`md2`:** Message Digest 2.
+- **`md4`:** Message Digest 4.
+- **`md5`:** Message Digest 5.
+- **`md6`:** Message Digest 6.
 - **`number`:** Number.
 - **`regularExpression`:** Regular expression.
-- **`semanticVersioning`:** Semantic Versioning version 2.0.0 (SemVer2).
-- **`sha1`**
-- **`sha224`**
-- **`sha256`**
-- **`sha384`**
-- **`sha512`**
+- **`semanticVersioning`:** Semantic Versioning version 2.0.0.
+- **`sha1`:** Secure Hash Algorithm 1.
+- **`sha224`:** Secure Hash Algorithm 2/3 224.
+- **`sha256`:** Secure Hash Algorithm 2/3 256.
+- **`sha384`:** Secure Hash Algorithm 2/3 384.
+- **`sha512`:** Secure Hash Algorithm 2/3 512.
 - **`shebang`:** Shebang; Not support flag.
+- **`uuid`:** Universally Unique Identifier.
 
 ### Flag
 
