@@ -22,6 +22,11 @@
 
 A NodeJS module to provide regular expression pattern.
 
+### 🌟 Feature
+
+- Customizable flag(s)
+- Include standard capture group(s)
+
 ### Pattern
 
 - **`base64`:** Base 64.
