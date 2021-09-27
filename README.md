@@ -115,7 +115,7 @@ const repattern = require("@hugoalh/repattern");
 #### Use In ModuleJS
 
 ```js
-import repattern from "@hugoalh/repattern";
+import * as repattern from "@hugoalh/repattern";
 ```
 
 ### API
