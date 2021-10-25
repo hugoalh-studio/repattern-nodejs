@@ -24,13 +24,13 @@ A NodeJS module to provide regular expression pattern.
 
 ### 🌟 Feature
 
-- Customizable flag(s)
-- Include standard capture group(s)
+- Customizable flags
+- Include standard capture groups
 
 ### Pattern
 
 - **`base64`:** Base 64.
-  > **⚠ Important:** Support additional flag(s):
+  > **⚠ Important:** Support additional flags:
   > - **`padding?`:** `<boolean>` Base 64 padding.
   >   - **`false`:** Enforce no padding.
   >   - **`true`:** Enforce padding.
@@ -56,7 +56,7 @@ A NodeJS module to provide regular expression pattern.
 - **`colourRGB`:** RGB colour.
 - **`colourRGBA`:** RGBA colour.
 - **`email`:** Electronic mail address.
-  > **⚠ Important:** Support additional flag(s):
+  > **⚠ Important:** Support additional flags:
   > - **`domain?`:** `<string>` Electronic mail address domain.
   > - **`ipv4?`:** `<boolean = false>` Allow IPV4 as the electronic mail address domain.
   > - **`ipv6?`:** `<boolean = false>` Allow IPV6 as the electronic mail address domain.
@@ -84,7 +84,7 @@ A NodeJS module to provide regular expression pattern.
 - **`sha384`:** Secure Hash Algorithm 2/3 384.
 - **`sha512`:** Secure Hash Algorithm 2/3 512.
 - **`shebang`:** Shebang.
-  > **⚠ Important:** Not support flag(s).
+  > **⚠ Important:** Not support flags.
 - **`uuid`:** Universally Unique Identifier.
 
 ### Flag (General)
