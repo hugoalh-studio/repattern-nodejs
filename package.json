@@ -1,6 +1,6 @@
 {
 	"name": "@hugoalh/repattern",
-	"version": "0.5.2",
+	"version": "0.5.3",
 	"description": "A module to provide regular expression pattern.",
 	"keywords": [
 		"pattern",
@@ -21,12 +21,13 @@
 		"import": "./lib/main.mjs",
 		"require": "./lib/main.js"
 	},
+	"types": "./@types/main.d.ts",
 	"repository": {
 		"type": "git",
 		"url": "git+https://github.com/hugoalh-studio/repattern-nodejs.git"
 	},
 	"dependencies": {
-		"@hugoalh/advanced-determine": "^6.3.1"
+		"@hugoalh/advanced-determine": "^6.4.0"
 	},
 	"engines": {
 		"node": ">= 14.15.0",
