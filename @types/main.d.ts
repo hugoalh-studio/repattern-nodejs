@@ -478,3 +478,4 @@ export function uuid(option?: {
     global?: boolean;
 }): RegExp;
 export { hash384 as blake2b384, hash512 as blake2b512, hash224 as blake2s224, hash256 as blake2s256, hash224 as blake224, hash256 as blake256, hash384 as blake384, hash512 as blake512, hash128 as md2, hash128 as md4, hash128 as md5, hash160 as sha1, hash224 as sha224, hash256 as sha256, hash384 as sha384, hash512 as sha512 };
+//# sourceMappingURL=main.d.ts.map
