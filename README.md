@@ -1,4 +1,4 @@
-# REPattern (NodeJS Edition)
+# REPattern (NodeJS)
 
 [`REPattern.NodeJS`](https://github.com/hugoalh-studio/repattern-nodejs)
 [![GitHub Contributors](https://img.shields.io/github/contributors/hugoalh-studio/repattern-nodejs?label=Contributors&logo=github&logoColor=ffffff&style=flat-square)](https://github.com/hugoalh-studio/repattern-nodejs/graphs/contributors)
