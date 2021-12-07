@@ -25,16 +25,19 @@ A NodeJS module to provide regular expression pattern.
 ### 🌟 Feature
 
 - Customizable flags
-- Include standard capture groups
+- Include standard named capture groups
 
 ### Pattern
 
-- **`base64`:** Base 64.
-  > **⚠ Important:** Support additional flags:
-  > - **`padding?`:** `<boolean>` Base 64 padding.
-  >   - **`false`:** Enforce no padding.
-  >   - **`true`:** Enforce padding.
-  >   - **`undefined`:** Optional padding.
+| **Legend** | **Description** |
+|:-:|:--|
+| ♑ | Include standard named capture groups. |
+
+- **`base64`:** Base 64. Additional flags:
+  - **`padding?`:** `<boolean>` Base 64 padding.
+    - **`false`:** Enforce no padding.
+    - **`true`:** Enforce padding.
+    - **`undefined`:** Optional padding.
 - **`base64URL`:** Base 64 URL.
 - **`bigInteger`:** Big integer number.
 - **`blake2b384`:** BLAKE 2 384.
@@ -45,21 +48,20 @@ A NodeJS module to provide regular expression pattern.
 - **`blake256`:** BLAKE 256.
 - **`blake384`:** BLAKE 384.
 - **`blake512`:** BLAKE 512.
-- **`colourCMYK`:** CMYK colour.
+- **`colourCMYK` ♑:** CMYK colour.
 - **`colourHex`:** Hex colour.
 - **`colourHexAlpha`:** Hex-alpha colour.
-- **`colourHSL`:** HSL colour.
-- **`colourHSLA`:** HSLA colour.
-- **`colourHWB`:** HWB colour.
-- **`colourHWBA`:** HWBA colour.
-- **`colourNCol`:** NCol colour.
-- **`colourRGB`:** RGB colour.
-- **`colourRGBA`:** RGBA colour.
-- **`email`:** Electronic mail address.
-  > **⚠ Important:** Support additional flags:
-  > - **`domain?`:** `<string>` Electronic mail address domain.
-  > - **`ipv4?`:** `<boolean = false>` Allow IPV4 as the electronic mail address domain.
-  > - **`ipv6?`:** `<boolean = false>` Allow IPV6 as the electronic mail address domain.
+- **`colourHSL` ♑:** HSL colour.
+- **`colourHSLA` ♑:** HSLA colour.
+- **`colourHWB` ♑:** HWB colour.
+- **`colourHWBA` ♑:** HWBA colour.
+- **`colourNCol` ♑:** NCol colour.
+- **`colourRGB` ♑:** RGB colour.
+- **`colourRGBA` ♑:** RGBA colour.
+- **`email` ♑:** Electronic mail address. Additional flags:
+  - **`domain?`:** `<string>` Electronic mail address domain.
+  - **`ipv4?`:** `<boolean = false>` Allow IPV4 as the electronic mail address domain.
+  - **`ipv6?`:** `<boolean = false>` Allow IPV6 as the electronic mail address domain.
 - **`githubRepository`:** GitHub repository.
 - **`hash128`:** Hash 128.
 - **`hash160`:** Hash 160.
@@ -76,18 +78,19 @@ A NodeJS module to provide regular expression pattern.
 - **`md5`:** Message Digest 5.
 - **`md6`:** Message Digest 6.
 - **`number`:** Number.
-- **`regularExpression`:** Regular expression.
-- **`semanticVersioning`:** Semantic Versioning version 2.0.0.
+- **`regularExpression` ♑:** Regular expression.
+- **`semanticVersioning` ♑:** Semantic Versioning version 2.
 - **`sha1`:** Secure Hash Algorithm 1.
-- **`sha224`:** Secure Hash Algorithm 2/3 224.
-- **`sha256`:** Secure Hash Algorithm 2/3 256.
-- **`sha384`:** Secure Hash Algorithm 2/3 384.
-- **`sha512`:** Secure Hash Algorithm 2/3 512.
-- **`shebang`:** Shebang.
+- **`sha224`:** Secure Hash Algorithm 2 224, Secure Hash Algorithm 3 224.
+- **`sha256`:** Secure Hash Algorithm 2 256, Secure Hash Algorithm 3 256.
+- **`sha384`:** Secure Hash Algorithm 2 384, Secure Hash Algorithm 3 384.
+- **`sha512`:** Secure Hash Algorithm 2 512, Secure Hash Algorithm 3 512.
+- **`shebang` ♑:** Shebang.
   > **⚠ Important:** Not support flags.
+- **`url`:** Uniform Resource Locator.
 - **`uuid`:** Universally Unique Identifier.
 
-### Flag (General)
+### Flag (Common)
 
 - **`boundary?`:** `<boolean = false>` Boundary; Cannot use with flag `exactly`.
 - **`caseInsensitive?`:** `<boolean = false>` Case insensitive.

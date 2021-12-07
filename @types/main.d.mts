@@ -463,6 +463,22 @@ export function semanticVersioning(option?: {
  */
 export function shebang(): RegExp;
 /**
+ * @function url
+ * @param {object} [option={}]
+ * @param {boolean} [option.boundary=false]
+ * @param {boolean} [option.caseInsensitive=false]
+ * @param {boolean} [option.exactly=false]
+ * @param {boolean} [option.global=false]
+ * @returns {RegExp}
+ * @note From https://gist.github.com/dperini/729294.
+ */
+export function url(option?: {
+    boundary?: boolean;
+    caseInsensitive?: boolean;
+    exactly?: boolean;
+    global?: boolean;
+}): RegExp;
+/**
  * @function uuid
  * @param {object} [option={}]
  * @param {boolean} [option.boundary=false]
