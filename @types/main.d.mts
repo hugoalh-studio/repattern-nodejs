@@ -124,6 +124,10 @@ export function hash256(option?: {
  * @param {boolean} [option.caseInsensitive=false]
  * @param {boolean} [option.exactly=false]
  * @param {boolean} [option.global=false]
+ * @param {string} [option.groupBlack="black"]
+ * @param {string} [option.groupCyan="cyan"]
+ * @param {string} [option.groupMagenta="magenta"]
+ * @param {string} [option.groupYellow="yellow"]
  * @returns {RegExp}
  */
 export function colourCMYK(option?: {
@@ -131,6 +135,10 @@ export function colourCMYK(option?: {
     caseInsensitive?: boolean;
     exactly?: boolean;
     global?: boolean;
+    groupBlack?: string;
+    groupCyan?: string;
+    groupMagenta?: string;
+    groupYellow?: string;
 }): RegExp;
 /**
  * @function colourHex
@@ -169,6 +177,9 @@ export function colourHexAlpha(option?: {
  * @param {boolean} [option.caseInsensitive=false]
  * @param {boolean} [option.exactly=false]
  * @param {boolean} [option.global=false]
+ * @param {string} [option.groupHue="hue"]
+ * @param {string} [option.groupLightness="lightness"]
+ * @param {string} [option.groupSaturation="saturation"]
  * @returns {RegExp}
  */
 export function colourHSL(option?: {
@@ -176,6 +187,9 @@ export function colourHSL(option?: {
     caseInsensitive?: boolean;
     exactly?: boolean;
     global?: boolean;
+    groupHue?: string;
+    groupLightness?: string;
+    groupSaturation?: string;
 }): RegExp;
 /**
  * @function colourHSLA
@@ -184,6 +198,10 @@ export function colourHSL(option?: {
  * @param {boolean} [option.caseInsensitive=false]
  * @param {boolean} [option.exactly=false]
  * @param {boolean} [option.global=false]
+ * @param {string} [option.groupAlpha="alpha"]
+ * @param {string} [option.groupHue="hue"]
+ * @param {string} [option.groupLightness="lightness"]
+ * @param {string} [option.groupSaturation="saturation"]
  * @returns {RegExp}
  */
 export function colourHSLA(option?: {
@@ -191,6 +209,10 @@ export function colourHSLA(option?: {
     caseInsensitive?: boolean;
     exactly?: boolean;
     global?: boolean;
+    groupAlpha?: string;
+    groupHue?: string;
+    groupLightness?: string;
+    groupSaturation?: string;
 }): RegExp;
 /**
  * @function colourHWB
@@ -199,6 +221,9 @@ export function colourHSLA(option?: {
  * @param {boolean} [option.caseInsensitive=false]
  * @param {boolean} [option.exactly=false]
  * @param {boolean} [option.global=false]
+ * @param {string} [option.groupBlackness="blackness"]
+ * @param {string} [option.groupHue="hue"]
+ * @param {string} [option.groupWhiteness="whiteness"]
  * @returns {RegExp}
  */
 export function colourHWB(option?: {
@@ -206,6 +231,9 @@ export function colourHWB(option?: {
     caseInsensitive?: boolean;
     exactly?: boolean;
     global?: boolean;
+    groupBlackness?: string;
+    groupHue?: string;
+    groupWhiteness?: string;
 }): RegExp;
 /**
  * @function colourHWBA
@@ -214,6 +242,10 @@ export function colourHWB(option?: {
  * @param {boolean} [option.caseInsensitive=false]
  * @param {boolean} [option.exactly=false]
  * @param {boolean} [option.global=false]
+ * @param {string} [option.groupAlpha="alpha"]
+ * @param {string} [option.groupBlackness="blackness"]
+ * @param {string} [option.groupHue="hue"]
+ * @param {string} [option.groupWhiteness="whiteness"]
  * @returns {RegExp}
  */
 export function colourHWBA(option?: {
@@ -221,6 +253,10 @@ export function colourHWBA(option?: {
     caseInsensitive?: boolean;
     exactly?: boolean;
     global?: boolean;
+    groupAlpha?: string;
+    groupBlackness?: string;
+    groupHue?: string;
+    groupWhiteness?: string;
 }): RegExp;
 /**
  * @function colourNCol
@@ -229,6 +265,9 @@ export function colourHWBA(option?: {
  * @param {boolean} [option.caseInsensitive=false]
  * @param {boolean} [option.exactly=false]
  * @param {boolean} [option.global=false]
+ * @param {string} [option.groupBlackness="blackness"]
+ * @param {string} [option.groupHue="hue"]
+ * @param {string} [option.groupWhiteness="whiteness"]
  * @returns {RegExp}
  */
 export function colourNCol(option?: {
@@ -236,6 +275,9 @@ export function colourNCol(option?: {
     caseInsensitive?: boolean;
     exactly?: boolean;
     global?: boolean;
+    groupBlackness?: string;
+    groupHue?: string;
+    groupWhiteness?: string;
 }): RegExp;
 /**
  * @function colourRGB
@@ -244,6 +286,9 @@ export function colourNCol(option?: {
  * @param {boolean} [option.caseInsensitive=false]
  * @param {boolean} [option.exactly=false]
  * @param {boolean} [option.global=false]
+ * @param {string} [option.groupBlue="blue"]
+ * @param {string} [option.groupGreen="green"]
+ * @param {string} [option.groupRed="red"]
  * @returns {RegExp}
  */
 export function colourRGB(option?: {
@@ -251,6 +296,9 @@ export function colourRGB(option?: {
     caseInsensitive?: boolean;
     exactly?: boolean;
     global?: boolean;
+    groupBlue?: string;
+    groupGreen?: string;
+    groupRed?: string;
 }): RegExp;
 /**
  * @function colourRGBA
@@ -259,6 +307,10 @@ export function colourRGB(option?: {
  * @param {boolean} [option.caseInsensitive=false]
  * @param {boolean} [option.exactly=false]
  * @param {boolean} [option.global=false]
+ * @param {string} [option.groupAlpha="alpha"]
+ * @param {string} [option.groupBlue="blue"]
+ * @param {string} [option.groupGreen="green"]
+ * @param {string} [option.groupRed="red"]
  * @returns {RegExp}
  */
 export function colourRGBA(option?: {
@@ -266,6 +318,10 @@ export function colourRGBA(option?: {
     caseInsensitive?: boolean;
     exactly?: boolean;
     global?: boolean;
+    groupAlpha?: string;
+    groupBlue?: string;
+    groupGreen?: string;
+    groupRed?: string;
 }): RegExp;
 /**
  * @function email
@@ -275,6 +331,8 @@ export function colourRGBA(option?: {
  * @param {string} [option.domain]
  * @param {boolean} [option.exactly=false]
  * @param {boolean} [option.global=false]
+ * @param {string} [option.groupDomain="domain"]
+ * @param {string} [option.groupLocal="local"]
  * @param {boolean} [option.ipv4=false]
  * @param {boolean} [option.ipv6=false]
  * @returns {RegExp}
@@ -285,6 +343,8 @@ export function email(option?: {
     domain?: string;
     exactly?: boolean;
     global?: boolean;
+    groupDomain?: string;
+    groupLocal?: string;
     ipv4?: boolean;
     ipv6?: boolean;
 }): RegExp;
@@ -434,6 +494,8 @@ export function number(option?: {
  * @param {boolean} [option.caseInsensitive=false]
  * @param {boolean} [option.exactly=false]
  * @param {boolean} [option.global=false]
+ * @param {string} [option.groupFlag="flag"]
+ * @param {string} [option.groupSource="source"]
  * @returns {RegExp}
  */
 export function regularExpression(option?: {
@@ -441,6 +503,8 @@ export function regularExpression(option?: {
     caseInsensitive?: boolean;
     exactly?: boolean;
     global?: boolean;
+    groupFlag?: string;
+    groupSource?: string;
 }): RegExp;
 /**
  * @function semanticVersioning
@@ -449,6 +513,11 @@ export function regularExpression(option?: {
  * @param {boolean} [option.caseInsensitive=false]
  * @param {boolean} [option.exactly=false]
  * @param {boolean} [option.global=false]
+ * @param {string} [option.groupBuild="build"]
+ * @param {string} [option.groupMajor="major"]
+ * @param {string} [option.groupMinor="minor"]
+ * @param {string} [option.groupPatch="patch"]
+ * @param {string} [option.groupPreRelease="prerelease"]
  * @returns {RegExp}
  */
 export function semanticVersioning(option?: {
@@ -456,12 +525,21 @@ export function semanticVersioning(option?: {
     caseInsensitive?: boolean;
     exactly?: boolean;
     global?: boolean;
+    groupBuild?: string;
+    groupMajor?: string;
+    groupMinor?: string;
+    groupPatch?: string;
+    groupPreRelease?: string;
 }): RegExp;
 /**
  * @function shebang
+ * @param {object} [option={}]
+ * @param {string} [option.groupCommand="command"]
  * @returns {RegExp}
  */
-export function shebang(): RegExp;
+export function shebang(option?: {
+    groupCommand?: string;
+}): RegExp;
 /**
  * @function url
  * @param {object} [option={}]

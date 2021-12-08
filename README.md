@@ -25,13 +25,13 @@ A NodeJS module to provide regular expression pattern.
 ### 🌟 Feature
 
 - Customizable flags
-- Include standard named capture groups
+- Include standard named capture groups (and configable)
 
 ### Pattern
 
 | **Legend** | **Description** |
 |:-:|:--|
-| ♑ | Include standard named capture groups. |
+| ♑ | Include standard named capture groups (and configable). |
 
 - **`base64`:** Base 64. Additional flags:
   - **`padding?`:** `<boolean>` Base 64 padding.
