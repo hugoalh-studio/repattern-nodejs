@@ -118,7 +118,10 @@ const repattern = require("@hugoalh/repattern");
 #### Use In ModuleJS
 
 ```js
-import * as repattern from "@hugoalh/repattern";
+/* Either */
+import * as repattern from "@hugoalh/repattern";// All
+import repattern from "@hugoalh/repattern";// All (>= v7.0.1)
+import { ... } from "@hugoalh/repattern";// Part / Tree-shake
 ```
 
 ### API
