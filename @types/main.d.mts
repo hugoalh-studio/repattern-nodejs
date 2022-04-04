@@ -1,3 +1,54 @@
+declare namespace _default {
+    export { base64 };
+    export { base64URL };
+    export { bigInteger };
+    export { hash384 as blake2b384 };
+    export { hash512 as blake2b512 };
+    export { hash224 as blake2s224 };
+    export { hash256 as blake2s256 };
+    export { hash224 as blake224 };
+    export { hash256 as blake256 };
+    export { hash384 as blake384 };
+    export { hash512 as blake512 };
+    export { colourCMYK };
+    export { colourHex };
+    export { colourHexAlpha };
+    export { colourHSL };
+    export { colourHSLA };
+    export { colourHWB };
+    export { colourHWBA };
+    export { colourNCol };
+    export { colourRGB };
+    export { colourRGBA };
+    export { email };
+    export { githubRepository };
+    export { hash128 };
+    export { hash160 };
+    export { hash224 };
+    export { hash256 };
+    export { hash384 };
+    export { hash512 };
+    export { ip };
+    export { ipv4 };
+    export { ipv6 };
+    export { macAddress };
+    export { hash128 as md2 };
+    export { hash128 as md4 };
+    export { hash128 as md5 };
+    export { md6 };
+    export { number };
+    export { regularExpression };
+    export { semanticVersioning };
+    export { hash160 as sha1 };
+    export { hash224 as sha224 };
+    export { hash256 as sha256 };
+    export { hash384 as sha384 };
+    export { hash512 as sha512 };
+    export { shebang };
+    export { url };
+    export { uuid };
+}
+export default _default;
 /**
  * @function base64
  * @param {object} [option={}]
