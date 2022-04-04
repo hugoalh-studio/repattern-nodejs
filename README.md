@@ -120,7 +120,7 @@ const repattern = require("@hugoalh/repattern");
 ```js
 /* Either */
 import * as repattern from "@hugoalh/repattern";// All
-import repattern from "@hugoalh/repattern";// All (>= v7.0.1)
+import repattern from "@hugoalh/repattern";// All (>= v1.0.0)
 import { ... } from "@hugoalh/repattern";// Part / Tree-shake
 ```
 
